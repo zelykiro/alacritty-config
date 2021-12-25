@@ -806,7 +806,7 @@ key_bindings:
 #- { key: NumpadSubtract, mods: Control,                         action: DecreaseFontSize }
 
 # (Windows only)
-#- { key: Return,   mods: Alt,           action: ToggleFullscreen }
+- { key: Return,   mods: Alt,           action: ToggleFullscreen }
 
 # (macOS only)
 #- { key: K,              mods: Command, mode: ~Vi|~Search, chars: "\x0c"                 }
@@ -832,7 +832,6 @@ key_bindings:
 
 # (user keybinds)
 - { key: Q,               mods: Alt|Shift,                  action: Quit }
-- { key: Return,          mods: Alt,                        action: SpawnNewInstance }
 
 #debug:
 # Display the time it takes to redraw each frame.
